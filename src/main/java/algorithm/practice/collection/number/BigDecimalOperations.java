@@ -16,7 +16,6 @@ public class BigDecimalOperations {
         BigDecimal b = new BigDecimal(bs);
 
 
-
         System.out.println(a.add(b));
         System.out.println(a.multiply(b));
     }

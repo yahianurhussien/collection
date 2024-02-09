@@ -7,33 +7,33 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-import static java.util.stream.Collectors.joining;
+
 import static java.util.stream.Collectors.toList;
+
 public class TwoDArray {
 
 
-        public static void main(String[] args) throws IOException {
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-            List<List<Integer>> arr = new ArrayList<>();
+        List<List<Integer>> arr = new ArrayList<>();
 
-            IntStream.range(0, 6).forEach(i -> {
-                try {
-                    arr.add(
-                            Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-                                    .map(Integer::parseInt)
-                                    .collect(toList())
-                    );
-                } catch (IOException ex) {
-                    throw new RuntimeException(ex);
-                }
-            });
+        IntStream.range(0, 6).forEach(i -> {
+            try {
+                arr.add(
+                        Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+                                .map(Integer::parseInt)
+                                .collect(toList())
+                );
+            } catch (IOException ex) {
+                throw new RuntimeException(ex);
+            }
+        });
 
 
+        bufferedReader.close();
 
-            bufferedReader.close();
-
-            System.out.println(arr);
-        }
+        System.out.println(arr);
     }
+}
 
