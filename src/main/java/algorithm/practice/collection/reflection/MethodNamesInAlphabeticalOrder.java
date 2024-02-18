@@ -1,6 +1,8 @@
 package algorithm.practice.collection.reflection;
-import java.lang.reflect.*;
-import java.util.*;
+
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.Collections;
 
 
 class Student{

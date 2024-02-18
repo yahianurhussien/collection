@@ -1,12 +1,11 @@
 package algorithm.practice.collection.designpattern;
 
 
-import java.util.*;
-import java.security.*;
+import java.util.Scanner;
 
 
 interface Food {
-    public String getType();
+    String getType();
 }
 class Pizza implements Food {
     public String getType() {
@@ -37,7 +36,7 @@ public class FactoryPattern {
 
 
 
-        public static void main(String args[]){
+        public static void main(String[] args){
 //            Do_Not_Terminate.forbidExit();
 
             try{

@@ -2,7 +2,7 @@ package algorithm.practice.collection.collections;
 
 class MyQueue<T> {
 
-    private T[] queue;
+    private final T[] queue;
     private int head;
     private int tail;
     private int size;
@@ -29,7 +29,6 @@ class MyQueue<T> {
             queue[tail] = element;
             size++;
         } else {
-            return;
         }
 
     }

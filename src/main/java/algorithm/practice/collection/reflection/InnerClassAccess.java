@@ -1,10 +1,7 @@
 package algorithm.practice.collection.reflection;
 
-import java.io.*;
-import java.lang.reflect.*;
-import java.util.*;
-import java.util.regex.*;
-import java.security.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class InnerClassAccess {
 

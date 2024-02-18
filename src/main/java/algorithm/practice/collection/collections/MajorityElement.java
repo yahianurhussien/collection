@@ -1,8 +1,6 @@
 package algorithm.practice.collection.collections;
 
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 
 public class MajorityElement {
 

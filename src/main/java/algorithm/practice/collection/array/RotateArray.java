@@ -1,8 +1,6 @@
 package algorithm.practice.collection.array;
 
-import java.text.CollationElementIterator;
 import java.util.Arrays;
-import java.util.Collections;
 
 public class RotateArray {
 
@@ -65,7 +63,7 @@ public class RotateArray {
 
 
     }
-    public static void reverse(int nums[], int i, int j){
+    public static void reverse(int[] nums, int i, int j){
         int li = i;
         int ri = j;
 

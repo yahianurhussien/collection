@@ -1,7 +1,7 @@
 package algorithm.practice.collection.exeptionhandling;
 
-import java.io.*;
-import java.util.*;
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
 public class TryCatch {
 

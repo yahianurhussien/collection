@@ -1,12 +1,11 @@
 package algorithm.practice.collection.number;
 
 
-import java.io.*;
-import java.lang.reflect.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.lang.reflect.Method;
+import java.util.HashSet;
+import java.util.Set;
 
 
 class Add {

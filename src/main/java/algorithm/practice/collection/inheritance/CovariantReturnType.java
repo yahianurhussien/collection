@@ -1,6 +1,5 @@
 package algorithm.practice.collection.inheritance;
 
-import java.awt.datatransfer.FlavorEvent;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

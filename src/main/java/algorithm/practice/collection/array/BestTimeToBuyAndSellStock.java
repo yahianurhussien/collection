@@ -64,7 +64,7 @@ public class BestTimeToBuyAndSellStock {
 
 
 
-    static int largest(int arr[], int n, int i)
+    static int largest(int[] arr, int n, int i)
     {
         // Last index return the element
         if (i == n - 1) {

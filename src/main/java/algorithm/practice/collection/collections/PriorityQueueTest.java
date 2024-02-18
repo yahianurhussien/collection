@@ -4,9 +4,9 @@ import java.util.*;
 
 class Student{
 
-    private int id;
-    private String name;
-    private double cgpa;
+    private final int id;
+    private final String name;
+    private final double cgpa;
 
 
     public Student(int id, String name, double cgpa){
