@@ -24,7 +24,7 @@ public class PNCBank_Scadea {
         System.out.println(list.stream().filter(e -> e % 2 == 0)
                 .collect(Collectors.toList()));
 
-       // sort the list according to thir length (number of characters)
+       // sort the list according to thier length (number of characters)
         List<String> stringList = new ArrayList<>();
         stringList.add("January");
         stringList.add("February");
@@ -49,4 +49,11 @@ class MyComparator implements Comparator<String> {
         return  (o1.length() > o2.length() ? 1 : -1);
 
     }
+
+
 }
+
+
+      //sort the list according to thir length (number of characters)
+    //output: [January, February, March, April, May]
+    //output: [March, April, May, January, February]
